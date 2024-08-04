@@ -1,0 +1,16 @@
+my_dict ={"Igor": 1995, "Lena": 1977,"Marta":1999,"Oleg": 2005}
+print(my_dict)
+print(my_dict.get("Lena"))
+print(my_dict.get("Olga","Такого ключа не существует"))
+my_dict.update({"Natasha": 2003,"Anton": 1988})
+print(my_dict)
+a=my_dict.pop("Anton")
+print(my_dict)
+print(a)
+print(my_dict)
+my_set={1,2,3,2,1,3,1,2,1,1,2,3}
+print(my_set)
+my_set.add(4)
+my_set.add(5)
+my_set.discard(2)
+print(my_set)
