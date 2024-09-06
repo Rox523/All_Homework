@@ -1,6 +1,8 @@
-number_home_work = 12
-hours_spent =1.5
-Course_name = "Python"
-time_for_one_task=(hours_spent /number_home_work)
-print("Курс:"+Course_name+", всего задач:"+str(number_home_work)+", затрачено часов: "+str(hours_spent)+", среднее время выполнения",time_for_one_task,"часа.")
-
+first_name = "Всего задач:"
+first_meaning = 12
+second_name = "затрачено часов:"
+second_meaning = 1.5
+name = "Курс: Python,"
+print(1.5 / 12)
+third_name = "среднее время выполнения 0,125 часа."
+print(name, first_name, first_meaning,',', second_name, second_meaning,',', third_name)
